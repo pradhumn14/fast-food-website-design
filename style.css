@@ -14,5 +14,66 @@
 }
 
 body {
+    background: #fff;
+    color: var(--primary-black);
+    overflow-x: hidden;
+}
+
+/* Default Style */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section .container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left,
+.right {
+    width: 50%;
     
+}
+
+/* Navbar */
+
+header {
+    padding: 0 2rem;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 2rem;
+    color: var(--gray);
+}
+
+.navbar .logo span {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.navbar .links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .links a {
+    font-size: 1.2rem;
+}
+
+.navbar .links a:hover {
+    color: var(--primary-color);
 }
