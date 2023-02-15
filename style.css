@@ -173,3 +173,44 @@ header {
 .hero .gallery img:hover {
     scale: 1.1;
 }
+
+/* SERVICES SECTION */
+
+.services {
+    padding-bottom: 200px;
+    background-color: #1c1819;
+}
+
+.services .img-container {
+    position: relative;
+    height: 700px;
+}
+
+.services img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.services .container {
+    position: relative;
+    margin-top: -200px;
+    color: #fff;
+    z-index: 1;
+}
+
+.services .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.services .card {
+    padding: 30px;
+    background-color: #333;
+}
+
+
+
