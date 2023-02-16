@@ -249,8 +249,148 @@ header {
 
 /* MENU SECTION */
 
+.menu {
+    padding: 3.5rem 0;
+}
 
+.menu .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.menu h1 {
+    margin-bottom: 20px;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.menu p {
+    max-width: 70%;
+}
+
+.menu .list {
+    margin-top: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.menu .card {
+    height: 260px;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu .card1 {
+    background-image: url(./img/menu1.jpg);
+}
+
+.menu .card2 {
+    background-image: url(./img/menu2.jpg);
+}
+
+.menu .card3 {
+    background-image: url(./img/menu3.jpg);
+}
+
+.menu .card4 {
+    background-image: url(./img/menu4.jpg);
+}
+
+.menu .card5 {
+    background-image: url(./img/menu5.jpg);
+}
+
+.menu .card6 {
+    background-image: url(./img/menu6.jpg);
+}
+
+.menu .card .info {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
 
 .menu .card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
     text-transform: capitalize;
 }
+
+.menu .card .price {
+    color: var(--light-red);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.menu .card button {
+    margin: 0 20px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.menu .card button:hover {
+    background-color: var(--light-red);
+    cursor: pointer;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+    background-color: #1a1a1a;
+    min-height: 600px;
+    color: #fff;
+}
+
+.contact .left {
+    min-height: 500px;
+    padding: 0;
+    position: relative;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .left::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: var(--primary-color);
+}
+
+.contact .img-container {
+    width: 90%;
+    height: 90%;
+    z-index: 1;
+    /* object-fit: cover; */
+}
+
+.contact .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+}
+
+/* CONTACT RIGHT SECTION */
+
