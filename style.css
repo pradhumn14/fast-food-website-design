@@ -212,5 +212,45 @@ header {
     background-color: #333;
 }
 
+.services .card .title {
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.services .card .number {
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.services .card p {
+    margin: 1rem 0 2rem;
+    color: #b3b3b3;
+    font-style: italic;
+}
+
+.services .card a {
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+}
+
+.services .card a:hover {
+    color: #b3b3b3;
+}
+
+/* MENU SECTION */
 
 
+
+.menu .card h2 {
+    text-transform: capitalize;
+}
