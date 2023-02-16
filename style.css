@@ -428,3 +428,68 @@ header {
     font-size: 1.125rem;
     /* color: #fff; */
 }
+
+.contact button {
+    padding: 10px 30px;
+    text-transform: capitalize;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1.125rem;
+    letter-spacing: .5px;
+}
+
+.contact button:hover {
+    background-color: #fff;
+    color: var(--primary-black);
+    cursor: pointer;
+}
+
+.contact .info {
+    width: 100%;
+    display: flex;
+}
+
+.contact .info .location, 
+.contact .info .social {
+    flex: 1;
+    padding: 2rem;
+    /* text-transform: capitalize; */
+    text-align: right;
+}
+
+.contact .right h2 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.contact .info .links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 2px;
+}
+
+.contact .info .links li {
+    list-style: none;
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    cursor: pointer;
+}
+
+.contact .info .links a {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
