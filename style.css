@@ -394,3 +394,37 @@ header {
 
 /* CONTACT RIGHT SECTION */
 
+.contact .right {
+    width: 60%;
+    padding: 4rem 1rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2.25rem;
+    text-transform: capitalize;
+}
+
+.contact p {
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+}
+
+.contact form {
+    margin: 5rem 0;
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.contact form input {
+    flex: 1;
+    padding: 10px 12px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 1.125rem;
+    /* color: #fff; */
+}
